@@ -65,11 +65,9 @@ XLE exhibited a wider distribution of daily returns, reflecting larger fluctuati
 
 ## 6. Sector Volatility Drivers Analysis
 
+### Sector Volatility Drivers Analysis
 
-
-# Sector Volatility Drivers Analysis
-
-## Overview
+### Overview
 
 The cumulative return comparison and daily return distribution analysis demonstrate significant differences in performance and volatility characteristics among XLK, XLF, and XLE.
 
@@ -84,9 +82,9 @@ This section analyzes the fundamental factors behind each sector's volatility by
 
 ---
 
-# XLK - Technology Sector Volatility Drivers
+### XLK - Technology Sector Volatility Drivers
 
-## Main Exposure
+### Main Exposure
 
 XLK primarily provides exposure to technology-related industries, including:
 
@@ -97,9 +95,8 @@ XLK primarily provides exposure to technology-related industries, including:
 
 Technology companies are generally characterized by strong growth potential and higher valuation multiples compared with traditional sectors.
 
----
 
-## Sector Background
+### Sector Background
 
 Compared with traditional industries, technology companies' **valuation** relies more heavily on **future earnings growth expectations**.
 
@@ -113,11 +110,9 @@ Therefore, technology stocks usually demonstrate higher valuation sensitivity an
 
 The relationship can be summarized as:
 
----
+### Factor Explanation
 
-# Factor Explanation
-
-## 1. Interest Rate Transmission
+### 1. Interest Rate Transmission
 
 Technology companies are often valued based on their expected future cash flows. Therefore, changes in interest rate expectations can significantly influence their valuation multiples.
 
@@ -125,9 +120,8 @@ When interest rate expectations rise, investors apply a higher discount rate to 
 
 As a result, high-growth technology companies may experience larger valuation adjustments compared with companies with more stable current earnings.
 
----
 
-## 2. Growth Expectation Transmission
+### 2. Growth Expectation Transmission
 
 The valuation of major technology companies is highly dependent on investors' expectations regarding future business growth.
 
@@ -142,9 +136,8 @@ However:
 
 Because technology companies usually trade at higher valuation multiples, changes in growth expectations can lead to significant price movements.
 
----
 
-## 3. Market Sentiment Transmission
+### 3. Market Sentiment Transmission
 
 Technology stocks are highly sensitive to changes in investor risk preference.
 
@@ -154,11 +147,11 @@ In contrast, during a **risk-off environment**, investors usually reduce exposur
 
 Therefore, technology sectors tend to experience stronger upside momentum during favorable market conditions but larger corrections during periods of uncertainty.
 
----
 
-# XLF - Financial Sector Volatility Drivers
 
-## Main Exposure
+### XLF - Financial Sector Volatility Drivers
+
+### Main Exposure
 
 XLF primarily provides exposure to financial institutions, including:
 
@@ -169,9 +162,8 @@ XLF primarily provides exposure to financial institutions, including:
 
 Compared with technology companies, financial companies generate earnings mainly through lending activities, capital allocation, and financial services. Therefore, their performance is closely connected with interest rate conditions, credit cycles, and overall economic activity.
 
----
 
-## Sector Background
+### Sector Background
 
 Unlike technology companies, whose valuations are mainly driven by future growth expectations, financial companies are more dependent on current economic conditions and operating environments.
 
@@ -185,27 +177,25 @@ The profitability of financial institutions is highly influenced by:
 
 Therefore, XLF generally exhibits a more cyclical return pattern and is sensitive to changes in macroeconomic conditions rather than long-term growth expectations.
 
----
 
-# Factor Explanation
 
-## 1. Interest Rate Transmission
+### Factor Explanation
+
+### 1. Interest Rate Transmission
 
 Interest rates are one of the most important factors affecting financial sector performance because they directly influence banks' lending profitability.
 
 A moderate increase in interest rates can benefit banks by increasing lending yields and expanding **Net Interest Margin (NIM)**, which improves profitability expectations. However, if interest rates remain high for an extended period, borrowing costs may increase, loan demand may weaken, and credit risks may rise. Therefore, the impact of interest rates on XLF depends on the broader economic environment rather than simply the direction of rate movements.
 
----
 
-## 2. Credit Cycle Transmission
+### 2. Credit Cycle Transmission
 
 Financial institutions are highly exposed to credit conditions because a significant portion of their earnings comes from lending activities. During periods of strong economic growth, businesses and consumers generally maintain healthier financial conditions, supporting loan growth and reducing default risks.
 
 However, when economic conditions deteriorate, rising unemployment, weaker corporate profitability, or declining consumer confidence can increase default risk. Banks may need to increase loan loss provisions, which reduces profitability expectations and creates pressure on financial sector valuations.
 
----
 
-## 3. Market Sentiment Transmission: Risk-on and Risk-off Environment
+### 3. Market Sentiment Transmission: Risk-on and Risk-off Environment
 
 Although financial stocks are generally less sensitive to growth expectations compared with technology stocks, investor sentiment still plays an important role in determining capital flows into the financial sector.
 
@@ -213,11 +203,10 @@ During a **risk-on environment**, investors usually expect stronger economic act
 
 In contrast, during a **risk-off environment**, investors become more concerned about economic slowdown, liquidity conditions, and potential financial instability. Since banks are closely connected with the broader economy, negative sentiment can quickly translate into concerns about credit quality and profitability.
 
----
 
-# XLE - Energy Sector Volatility Drivers
+### XLE - Energy Sector Volatility Drivers
 
-## Main Exposure
+### Main Exposure
 
 XLE primarily provides exposure to energy-related industries, including:
 
@@ -227,9 +216,8 @@ XLE primarily provides exposure to energy-related industries, including:
 
 Unlike technology and financial sectors, energy companies are highly dependent on commodity markets, especially crude oil prices. Therefore, XLE performance is strongly influenced by changes in global energy supply, demand conditions, and geopolitical factors.
 
----
 
-## Sector Background
+### Sector Background
 
 Compared with technology and financial companies, energy companies have a more cyclical business model because their profitability is closely linked to commodity price movements.
 
@@ -242,11 +230,10 @@ The earnings of energy companies are mainly influenced by:
 
 Therefore, XLE usually demonstrates stronger cyclical characteristics and higher sensitivity to external market shocks.
 
----
 
-# Factor Explanation
+### Factor Explanation
 
-## 1. Oil Price Transmission
+### 1. Oil Price Transmission
 
 Crude oil price is one of the most important drivers of energy sector performance because it directly affects the revenue and profitability of energy companies.
 
@@ -257,17 +244,15 @@ However, when oil prices decline, investors may reassess the profitability of en
 Conversely:
 Because energy companies have direct exposure to commodity prices, changes in oil prices can quickly translate into significant movements in XLE.
 
----
 
-## 2. Supply-Demand Cycle Transmission
+### 2. Supply-Demand Cycle Transmission
 
 Energy markets are highly influenced by global supply and demand conditions. Unlike sectors driven mainly by company-specific innovation, energy prices are determined by the balance between global production and consumption.
 
 When global economic activity strengthens, energy demand typically increases, supporting higher commodity prices and improving energy sector profitability. In contrast, concerns about economic slowdown can reduce energy demand expectations and pressure energy prices.Therefore, XLE performance is closely linked to global economic cycles and commodity market conditions.
 
----
 
-## 3. Geopolitical Risk Transmission
+### 3. Geopolitical Risk Transmission
 
 Energy markets are particularly sensitive to geopolitical events because global oil supply can be affected by political conflicts, production disruptions, and decisions from major energy-producing countries.
 
@@ -275,9 +260,8 @@ When geopolitical uncertainty increases, investors may expect potential supply d
 
 However, geopolitical uncertainty can also increase market uncertainty and create larger price fluctuations, resulting in higher volatility in the energy sector.
 
----
 
-## 4. Market Sentiment Transmission: Risk-on and Risk-off Environment
+### 4. Market Sentiment Transmission: Risk-on and Risk-off Environment
 
 Compared with technology stocks, energy companies are not primarily viewed as long-term growth assets. Instead, investor sentiment toward XLE is often connected with expectations regarding economic activity, inflation, and commodity prices.
 
