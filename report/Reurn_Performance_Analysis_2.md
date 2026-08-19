@@ -101,7 +101,7 @@ This section analyzes the fundamental factors behind each sector's volatility by
 
 ---
 
-# 2.2 XLK - Technology Sector
+## 2.2 XLK - Technology Sector
 
 ## Main Exposure
 
@@ -172,9 +172,10 @@ In contrast, during a **risk-off environment**, investors usually reduce exposur
 Since technology companies are often priced based on long-term growth expectations, negative changes in market sentiment can result in faster valuation repricing compared with more defensive sectors.
 
 Therefore, technology sectors tend to experience stronger upside momentum during favorable market conditions but larger corrections during periods of uncertainty.
+
 ---
 
-# 2.3 XLF - Financial Sector
+## 2.3 XLF - Financial Sector
 
 ## Main Exposure
 
@@ -265,7 +266,7 @@ Therefore, financial stocks usually experience pressure during periods of econom
 
 ---
 
-# 2.4 XLE - Energy Sector
+## 2.4 XLE - Energy Sector
 
 ## Main Exposure
 
@@ -400,7 +401,31 @@ These differences provide the foundation for further risk analysis using:
 
 # 4. Risk Metrics Methodology
 
-## 3.1 Sharpe Ratio
+### Overview of Risk Measurement
+
+Investment performance cannot be evaluated only by historical returns. Although higher returns may appear attractive, they may also result from taking higher levels of risk.
+
+According to Investopedia, investors should consider multiple risk measurements to understand the relationship between return and risk. Metrics such as volatility measures and risk-adjusted performance indicators help evaluate whether an investment's return was achieved efficiently or simply resulted from accepting greater uncertainty. :contentReference[oaicite:2]{index=2}
+
+Different risk metrics capture different dimensions of investment risk:
+
+- Volatility-based metrics measure the overall fluctuation of returns;
+- Risk-adjusted metrics evaluate whether returns adequately compensate for the risk taken;
+- Downside risk metrics focus on potential losses during unfavorable market conditions.
+
+In this project, four risk metrics are selected to provide a comprehensive comparison of XLK, XLF, and XLE:
+
+- Sharpe Ratio: evaluates risk-adjusted return efficiency;
+- Value at Risk (VaR): measures potential loss under normal market conditions;
+- Conditional Value at Risk (CVaR): evaluates the severity of losses beyond the VaR threshold;
+- Maximum Drawdown (MDD): measures the largest historical peak-to-trough decline.
+
+By combining these metrics, the analysis moves beyond simple return comparison and provides a more complete understanding of each sector ETF's risk-return profile.
+
+Reference: Investopedia - Evaluating Mutual Fund Risk: Top 5 Strategies  
+https://www.investopedia.com/investing/measure-mutual-fund-risk/
+
+## 4.1 Sharpe Ratio
 
 ### Definition and Purpose
 
@@ -451,7 +476,7 @@ By combining Sharpe Ratio with downside risk metrics, this analysis provides a m
 
 ---
 
-## 3.2 Value at Risk (VaR)
+## 4.2 Value at Risk (VaR)
 
 ### Definition and Purpose
 
@@ -509,7 +534,7 @@ This allows the comparison to move beyond return performance and identify differ
 
 ---
 
-## 3.3 Conditional Value at Risk (CVaR)
+## 4.3 Conditional Value at Risk (CVaR)
 
 ### Definition and Purpose
 
@@ -558,7 +583,7 @@ By comparing VaR and CVaR together, this analysis can identify not only which se
 
 ---
 
-## 3.4 Maximum Drawdown (MDD)
+## 4.4 Maximum Drawdown (MDD)
 
 ### Definition and Purpose
 
