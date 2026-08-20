@@ -506,7 +506,7 @@ VaR can be estimated through three commonly used approaches:
 For this project, the **Historical Simulation Method** is selected because it directly uses observed ETF return data without requiring assumptions about return distribution.
 
 
-This approach is suitable for comparing sector ETFs because it reflects the actual historical downside behavior of each ETF. :contentReference[oaicite:0]{index=0}
+This approach is suitable for comparing sector ETFs because it reflects the actual historical downside behavior of each ETF.
 
 ---
 
@@ -514,13 +514,13 @@ This approach is suitable for comparing sector ETFs because it reflects the actu
 
 **Advantages**
 
-VaR provides a simple and intuitive measurement of downside risk by converting complex return distributions into a single numerical value. This allows investors and financial institutions to compare risk exposure across different assets or portfolios. :contentReference[oaicite:1]{index=1}
+VaR provides a simple and intuitive measurement of downside risk by converting complex return distributions into a single numerical value. This allows investors and financial institutions to compare risk exposure across different assets or portfolios. 
 
 **Limitations**
 
 However, VaR only identifies the loss threshold at a given confidence level and does not describe the severity of losses beyond that threshold. For example, losses of -5% and -10% would both be considered beyond a 95% VaR threshold.
 
-Therefore, VaR should be combined with Conditional Value at Risk (CVaR), which measures the average loss in the extreme tail region. :contentReference[oaicite:2]{index=2}
+Therefore, VaR should be combined with Conditional Value at Risk (CVaR), which measures the average loss in the extreme tail region.
 
 ---
 
@@ -632,3 +632,122 @@ Therefore, Maximum Drawdown should be analyzed together with other risk metrics 
 For this project, Maximum Drawdown will be used to compare the worst historical loss experience of XLK, XLF, and XLE.
 
 By combining Maximum Drawdown with return and other risk metrics, this analysis evaluates whether higher-performing ETFs also exposed investors to larger potential losses during market downturns.
+
+---
+
+# 5. Risk Metrics Comparison Analysis
+
+## 5.1 Risk Metrics Summary
+
+| ETF | Sharpe Ratio | 1-Day VaR (95%) | 1-Day CVaR (95%) | Maximum Drawdown |
+| --- | ---: | ---: | ---: | ---: |
+| XLK | 1.19 | -2.40% | -3.33% | -25.66% |
+| XLF | 0.63 | -1.62% | -2.45% | -16.27% |
+| XLE | 0.42 | -2.20% | -3.18% | -20.14% |
+
+## 5.2 Risk Metric Comparison Framework
+
+| Metric | Main Question | Higher / Lower Interpretation | Risk Dimension |
+| --- | --- | --- | --- |
+| Sharpe Ratio | Was return sufficient to compensate for volatility? | Higher is generally better | Risk-adjusted performance |
+| 1-Day VaR (95%) | Where does the worst 5% daily-loss region begin? | More negative = greater downside exposure | Short-term downside risk |
+| 1-Day CVaR (95%) | How severe are losses once VaR is exceeded? | More negative = greater tail-loss severity | Tail risk |
+| Maximum Drawdown | What was the largest historical peak-to-trough loss? | More negative = deeper historical drawdown | Cumulative downside risk |
+
+---
+
+## 5.3 Sharpe Ratio Comparison
+
+![Sharpe Ratio Comparison](../figures/Sharpe_Ratio_Comparison.png)
+
+### Quantitative Comparison
+
+- XLK: 1.19
+- XLF: 0.63
+- XLE: 0.42
+
+### Interpretation Standard
+
+| Sharpe Ratio | General Interpretation |
+| --- | --- |
+| < 0 | The investment underperformed the risk-free rate on a risk-adjusted basis |
+| 0 – 1 | Positive but relatively weak risk-adjusted performance |
+| 1 – 2 | Generally considered good risk-adjusted performance |
+| 2 – 3 | Very strong risk-adjusted performance |
+| > 3 | Exceptionally strong risk-adjusted performance |
+
+### Interpretation
+
+XLK has the highest Sharpe Ratio among the three ETFs, indicating that it generated the highest return per unit of volatility and therefore delivered the strongest risk-adjusted performance over the sample period. By contrast, XLE has the lowest Sharpe Ratio, at roughly one-third of XLK's level, suggesting relatively weak risk-adjusted performance. XLF's Sharpe Ratio is slightly higher than XLE's, but it remains substantially below XLK's, placing XLF in the middle of the three ETFs in terms of risk-adjusted efficiency over the sample period.
+
+---
+
+## 5.4 CVaR and VaR Comparison
+
+![VaR and CVaR Comparison](../figures/VaR_CVaR_Comparison.png)
+
+### Quantitative Comparison
+
+| ETF | 1-Day VaR (95%) | 1-Day CVaR (95%) | 
+| --- | ---: | ---: |
+| XLK | -2.40% | -3.33% | 
+| XLF | -1.62% | -2.45% | 
+| XLE | -2.20% | -3.18% |
+
+
+### Interpretation
+
+XLK exhibits the largest 1-Day VaR and CVaR losses among the three ETFs, indicating the greatest short-term downside exposure over the sample period. Its 95% VaR of -2.40% represents the historical threshold for the worst 5% of daily returns, while its CVaR of -3.33% shows that losses averaged approximately 3.33% once returns moved beyond this threshold.
+
+XLE shows a similar downside-risk profile, with a 1-Day VaR of -2.20% and a CVaR of -3.18%, although both losses are slightly smaller than those of XLK.
+
+In contrast, XLF records the smallest VaR and CVaR losses, at -1.62% and -2.45%, respectively. This suggests that XLF experienced less severe short-term downside losses, both around the 5% tail threshold and within more extreme tail events, than XLK and XLE during the sample period.
+
+---
+
+## 5.5 Maximum Drawdown Comparison
+
+![Maximum Drawdown Comparison](../figures/Drawdown_Comparison.png)
+
+### Quantitative Comparison
+
+- XLK: -25.66%
+- XLF: -16.27%
+- XLE: -20.14%
+
+### Interpretation
+
+MDD reflects the largest peak-to-trough decline experienced over the sample period. XLK records the deepest drawdown, at approximately -25.66%, which is consistent with its relatively high VaR and CVaR and confirms that it experienced the most severe historical downside among the three ETFs.
+
+Although XLE shows a similar downside-risk profile to XLK in terms of VaR and CVaR, its Maximum Drawdown is about 5.5 percentage points smaller, at -20.14%. This suggests that, while XLE was also exposed to meaningful downside risk, its worst cumulative historical decline was less severe than XLK's.
+
+XLF records the smallest Maximum Drawdown, at approximately -16.27%, indicating a comparatively milder peak-to-trough loss during the sample period. This result is broadly consistent with the more stable risk profile observed in the earlier Return Performance Analysis.
+
+---
+
+### 5.6 Sector Explanation
+
+XLK's stronger risk-adjusted performance can be partly explained by the strong earnings and growth momentum of the technology sector, particularly those companies exposed to AI infrastructure, semiconductors, and cloud computing. Strong AI-related demand has supported semiconductor orders, capacity utilization, and earnings expectations, while several technology and chip companies have continued to report results above market expectations. This has helped generate strong returns despite XLK's relatively high volatility. In other words, XLK took on more volatility, but the return generated over the sample period was sufficient to produce the highest Sharpe Ratio among the three ETFs.
+
+By contrast, XLE's lower Sharpe Ratio reflects the combination of relatively high volatility and weaker return compensation per unit of risk. The Energy sector is highly sensitive to oil and gas prices, geopolitical tensions, supply disruptions, and changes in global demand. Events such as the Russia–Ukraine war and broader Middle East conflicts can disrupt production, refining, transportation, or major supply routes, increasing commodity-price volatility and making energy-sector returns less stable. 
+
+XLF showed a more moderate risk profile over the sample period. Compared with XLK and XLE, its volatility and downside-risk measures were lower, which is consistent with a sector whose performance is driven more by interest rates, credit conditions, loan growth, and the broader economic cycle than by high-growth expectations or commodity-price shocks. However, its lower volatility was also accompanied by lower returns, leaving its Sharpe Ratio below that of XLK. Financial-sector risk therefore remained relatively contained in this sample, although banks are still sensitive to interest-rate changes, credit losses, and broader financial conditions. 
+
+---
+# 5. Investment Implications
+
+Based on the combined risk metrics:
+
+| ETF | Sharpe Ratio | 1-Day VaR (95%) | 1-Day CVaR (95%) | Maximum Drawdown |
+| --- | ---: | ---: | ---: | ---: |
+| XLK | 1.19 | -2.40% | -3.33% | -25.66% |
+| XLF | 0.63 | -1.62% | -2.45% | -16.27% |
+| XLE | 0.42 | -2.20% | -3.18% | -20.14% |
+
+The analysis should emphasize that no single risk metric provides a complete assessment. Sharpe Ratio measures risk-adjusted return, VaR estimates a typical downside threshold, CVaR captures the severity of losses beyond that threshold, and Maximum Drawdown shows the largest historical peak-to-trough decline. Therefore, the four metrics should be interpreted together when comparing sector ETF risk profiles.
+
+---
+
+# 7. Final Conclusion
+
+[Summarize the overall ranking and the main risk-return trade-offs among XLK, XLF, and XLE.]
