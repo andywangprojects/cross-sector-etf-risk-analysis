@@ -1,5 +1,41 @@
 # Cross-Sector ETF Risk Analysis Report
 
+## Executive Summary
+
+This project evaluates the risk-return characteristics of three sector ETFs:
+
+- **XLK (Technology Sector)**
+- **XLF (Financial Sector)**
+- **XLE (Energy Sector)**
+
+The objective is to compare sector-level return performance, volatility drivers, and risk characteristics using historical market data.
+
+The analysis combines:
+
+- Return performance analysis
+- Sector-specific volatility interpretation
+- Risk-adjusted performance measurement
+- Downside risk evaluation
+
+Four key risk metrics are applied:
+
+- Sharpe Ratio
+- Value at Risk (VaR)
+- Conditional Value at Risk (CVaR)
+- Maximum Drawdown (MDD)
+
+### Key Findings
+
+- **XLK generated the strongest return and risk-adjusted performance**, achieving the highest Sharpe Ratio. However, its higher valuation sensitivity and growth dependence resulted in greater downside exposure.
+
+- **XLF demonstrated the most stable risk profile**, with lower volatility, smaller VaR/CVaR losses, and the smallest Maximum Drawdown among the three ETFs.
+
+- **XLE showed higher cyclical risk**, driven by commodity price movements, supply-demand conditions, and geopolitical uncertainty.
+
+Overall, the analysis highlights that sector allocation involves a trade-off between growth potential, risk exposure, and downside protection.
+
+---
+
 ## 1. Return Performance Analysis
 
 ### 1.1 Overview
@@ -466,16 +502,6 @@ Therefore, Sharpe Ratio should be analyzed together with downside risk metrics s
 
 ---
 
-### Application in This Project
-
-For this project, Sharpe Ratio will be used to evaluate the risk-adjusted performance of XLK, XLF, and XLE.
-
-The objective is not only to identify which ETF generated the highest return, but also to determine whether the additional return was sufficient compensation for the volatility and risk taken.
-
-By combining Sharpe Ratio with downside risk metrics, this analysis provides a more complete comparison of each sector ETF's risk-return profile.
-
----
-
 ## 4.2 Value at Risk (VaR)
 
 ### Definition and Purpose
@@ -524,16 +550,6 @@ Therefore, VaR should be combined with Conditional Value at Risk (CVaR), which m
 
 ---
 
-### Application in This Project
-
-For this project, VaR will be used to evaluate the downside risk exposure of XLK, XLF, and XLE based on their historical daily return distributions.
-
-By applying the 95% Historical VaR method, this analysis aims to compare how much each sector ETF could potentially lose under normal market conditions.
-
-This allows the comparison to move beyond return performance and identify differences in downside risk characteristics among the three sectors.
-
----
-
 ## 4.3 Conditional Value at Risk (CVaR)
 
 ### Definition and Purpose
@@ -575,14 +591,6 @@ Therefore, CVaR should be interpreted together with other risk metrics, includin
 
 ---
 
-### Application in This Project
-
-For this project, CVaR will be used to evaluate the tail risk of XLK, XLF, and XLE.
-
-By comparing VaR and CVaR together, this analysis can identify not only which sector ETF is more likely to experience losses, but also how severe those losses could become during extreme market conditions.
-
----
-
 ## 4.4 Maximum Drawdown (MDD)
 
 ### Definition and Purpose
@@ -604,11 +612,6 @@ https://www.investopedia.com/terms/m/maximum-drawdown-mdd.asp
 
 ---
 
-
-For this project, Maximum Drawdown will be calculated based on the cumulative return series of XLK, XLF, and XLE to evaluate their historical downside risk.
-
----
-
 ### Advantages and Limitations
 
 **Advantages**
@@ -624,14 +627,6 @@ However, Maximum Drawdown only measures the largest historical decline and does 
 In addition, because MDD is based on historical price movements, it may not fully represent future downside risks under different market conditions.
 
 Therefore, Maximum Drawdown should be analyzed together with other risk metrics such as Sharpe Ratio, VaR, and CVaR.
-
----
-
-### Application in This Project
-
-For this project, Maximum Drawdown will be used to compare the worst historical loss experience of XLK, XLF, and XLE.
-
-By combining Maximum Drawdown with return and other risk metrics, this analysis evaluates whether higher-performing ETFs also exposed investors to larger potential losses during market downturns.
 
 ---
 
@@ -725,16 +720,7 @@ XLF records the smallest Maximum Drawdown, at approximately -16.27%, indicating 
 
 ---
 
-### 5.6 Sector Explanation
-
-XLK's stronger risk-adjusted performance can be partly explained by the strong earnings and growth momentum of the technology sector, particularly those companies exposed to AI infrastructure, semiconductors, and cloud computing. Strong AI-related demand has supported semiconductor orders, capacity utilization, and earnings expectations, while several technology and chip companies have continued to report results above market expectations. This has helped generate strong returns despite XLK's relatively high volatility. In other words, XLK took on more volatility, but the return generated over the sample period was sufficient to produce the highest Sharpe Ratio among the three ETFs.
-
-By contrast, XLE's lower Sharpe Ratio reflects the combination of relatively high volatility and weaker return compensation per unit of risk. The Energy sector is highly sensitive to oil and gas prices, geopolitical tensions, supply disruptions, and changes in global demand. Events such as the Russia–Ukraine war and broader Middle East conflicts can disrupt production, refining, transportation, or major supply routes, increasing commodity-price volatility and making energy-sector returns less stable. 
-
-XLF showed a more moderate risk profile over the sample period. Compared with XLK and XLE, its volatility and downside-risk measures were lower, which is consistent with a sector whose performance is driven more by interest rates, credit conditions, loan growth, and the broader economic cycle than by high-growth expectations or commodity-price shocks. However, its lower volatility was also accompanied by lower returns, leaving its Sharpe Ratio below that of XLK. Financial-sector risk therefore remained relatively contained in this sample, although banks are still sensitive to interest-rate changes, credit losses, and broader financial conditions. 
-
----
-# 5. Investment Implications
+# 6. Investment Implications
 
 Based on the combined risk metrics:
 
@@ -744,10 +730,28 @@ Based on the combined risk metrics:
 | XLF | 0.63 | -1.62% | -2.45% | -16.27% |
 | XLE | 0.42 | -2.20% | -3.18% | -20.14% |
 
-The analysis should emphasize that no single risk metric provides a complete assessment. Sharpe Ratio measures risk-adjusted return, VaR estimates a typical downside threshold, CVaR captures the severity of losses beyond that threshold, and Maximum Drawdown shows the largest historical peak-to-trough decline. Therefore, the four metrics should be interpreted together when comparing sector ETF risk profiles.
+Based on the quantitative analysisn, XLK demonstrates the strongest risk-adjusted performance among the three ETFs, generating the highest return compensation per unit of volatility, and is supported by the strong growth momentum of the technology sector, particularly from AI infrastructure, semiconductors demand,and positive earning expectations.However, this high return potential is accompanied with the greatest short-term downside exposure and deepest drawdown over the sample period. Additionally, XLK is strongly sensitive to growth expectations, interest-rate conditions, and overall market risk appetite, which can amplify both upside potential and downside volatilit
+
+Therefore, XLK may be more suitable for investors with higher risk tolerance who seek long-term growth opportunities and are willing to accept larger fluctuations. Within a diversified portfolio, investors may consider combining XLK with assets or sectors with different risk drivers to reduce concentration risk.
+
+In terms of XLF, it shows an moderate risk-adjusted performance, providing a relatively lower return compensation per unit of volability. What's more, XLF exhibits the lowest short-term downside exposure and the smallest historical drawdown over the sample period, making it a relatively defensive option among the three sector ETFs.
+
+Therefore, XLF is suitable for investors who are inclined to having stable return and bearing a lower risk.
+Nevertheless, XLF remains sensitive to broader economic conditions, particularly changes in interest rates, credit conditions, and economic cycles. During periods of recession or financial stress, financial institutions may face higher credit risk and weaker earnings growth. Despite these risks, XLF maintained a relatively stable risk profile throughout most of the sample period, reflecting its more moderate volatility compared with XLK and XLE.
+
+As for XLE, it demonstrates the weakest risk-adjusted performance among the three ETFs, generating the lowest return per unit of volatility. This weaker performance is accompanied by relatively high short-term downside exposure and a significant historical drawdown over the sample period, suggesting that XLE provides limited downside protection compared with XLK and XLF.
+
+However, XLE has a unique risk profile due to its strong sensitivity to crude oil and natural gas prices, global supply-demand conditions, production decisions by major energy producers, and geopolitical developments. During periods of geopolitical tension or potential supply disruptions, energy prices may increase due to higher supply-risk premiums, which can provide short-term support for energy-sector returns.
+
+Therefore, rather than serving as a defensive investment, XLE may be more suitable as a tactical allocation for investors with strong macroeconomic awareness and the ability to monitor commodity markets and geopolitical developments. Its performance is highly dependent on external energy-market conditions, creating both opportunities during commodity upcycles and significant risks during unfavorable environments.
 
 ---
 
 # 7. Final Conclusion
 
-[Summarize the overall ranking and the main risk-return trade-offs among XLK, XLF, and XLE.]
+This project evaluates the risk-return characteristics of three sector ETFs: XLK (Technology), XLF (Financials), and XLE (Energy), using historical market data and four key risk metrics: Sharpe Ratio, Value at Risk (VaR), Conditional Value at Risk (CVaR), and Maximum Drawdown.
+
+The analysis combines quantitative risk measurement with sector-level interpretation to understand how different industry characteristics influence ETF performance. While return analysis highlights the historical growth performance of each sector, the risk metrics provide a more comprehensive evaluation by examining volatility-adjusted returns, short-term downside exposure, extreme loss scenarios, and historical drawdown experiences.
+
+Overall, this project highlights the importance of evaluating investments through multiple risk perspectives rather than relying on a single performance measure. By combining return analysis, risk metrics, and sector-level economic interpretation, investors can better understand the trade-offs between growth potential, downside protection, and exposure to different market drivers when allocating across sector ETFs.
+
