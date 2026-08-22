@@ -730,14 +730,13 @@ Based on the combined risk metrics:
 | XLF | 0.63 | -1.62% | -2.45% | -16.27% |
 | XLE | 0.42 | -2.20% | -3.18% | -20.14% |
 
-Based on the quantitative analysisn, XLK demonstrates the strongest risk-adjusted performance among the three ETFs, generating the highest return compensation per unit of volatility, and is supported by the strong growth momentum of the technology sector, particularly from AI infrastructure, semiconductors demand,and positive earning expectations.However, this high return potential is accompanied with the greatest short-term downside exposure and deepest drawdown over the sample period. Additionally, XLK is strongly sensitive to growth expectations, interest-rate conditions, and overall market risk appetite, which can amplify both upside potential and downside volatilit
+Based on the quantitative analysis, XLK demonstrates the strongest risk-adjusted performance among the three ETFs, generating the highest return compensation per unit of volatility. This performance is supported by the strong growth momentum of the technology sector, particularly from AI infrastructure, semiconductor demand, and positive earnings expectations. However, this higher return potential is accompanied by the greatest short-term downside exposure and deepest historical drawdown over the sample period. Additionally, XLK is highly sensitive to changes in growth expectations, interest-rate conditions, and overall market risk appetite, which can amplify both upside potential and downside volatility.
 
 Therefore, XLK may be more suitable for investors with higher risk tolerance who seek long-term growth opportunities and are willing to accept larger fluctuations. Within a diversified portfolio, investors may consider combining XLK with assets or sectors with different risk drivers to reduce concentration risk.
 
-In terms of XLF, it shows an moderate risk-adjusted performance, providing a relatively lower return compensation per unit of volability. What's more, XLF exhibits the lowest short-term downside exposure and the smallest historical drawdown over the sample period, making it a relatively defensive option among the three sector ETFs.
+In terms of XLF, it demonstrates a moderate risk-adjusted performance, providing relatively lower return compensation per unit of volatility compared with XLK. Meanwhile, XLF exhibits the lowest short-term downside exposure and the smallest historical drawdown over the sample period, making it a relatively defensive option among the three sector ETFs.
 
-Therefore, XLF is suitable for investors who are inclined to having stable return and bearing a lower risk.
-Nevertheless, XLF remains sensitive to broader economic conditions, particularly changes in interest rates, credit conditions, and economic cycles. During periods of recession or financial stress, financial institutions may face higher credit risk and weaker earnings growth. Despite these risks, XLF maintained a relatively stable risk profile throughout most of the sample period, reflecting its more moderate volatility compared with XLK and XLE.
+Therefore, XLF may be more suitable for investors who prioritize stability and lower downside risk. Nevertheless, XLF remains sensitive to broader economic conditions, particularly changes in interest rates, credit conditions, and economic cycles. During periods of recession or financial stress, financial institutions may face higher credit risk and weaker earnings growth. Despite these risks, XLF maintained a relatively stable risk profile throughout most of the sample period, reflecting its lower volatility compared with XLK and XLE.
 
 As for XLE, it demonstrates the weakest risk-adjusted performance among the three ETFs, generating the lowest return per unit of volatility. This weaker performance is accompanied by relatively high short-term downside exposure and a significant historical drawdown over the sample period, suggesting that XLE provides limited downside protection compared with XLK and XLF.
 
@@ -745,9 +744,125 @@ However, XLE has a unique risk profile due to its strong sensitivity to crude oi
 
 Therefore, rather than serving as a defensive investment, XLE may be more suitable as a tactical allocation for investors with strong macroeconomic awareness and the ability to monitor commodity markets and geopolitical developments. Its performance is highly dependent on external energy-market conditions, creating both opportunities during commodity upcycles and significant risks during unfavorable environments.
 
----
+# 7. Porfolio Construction
+XLK may become relatively more attractive in an environment characterized by strong AI investment momentum, improving growth expectations, and supportive interest-rate conditions. As technology companies are highly dependent on future earnings growth, stronger AI adoption can improve earnings expectations and support valuation expansion. However, this growth-driven return profile also increases sensitivity to changes in interest rates and market sentiment. Therefore, while XLK may provide stronger upside potential during growth-oriented market conditions, investors should also recognize that expectation reversals may lead to greater downside volatility.
 
-# 7. Final Conclusion
+XLF may become relatively more attractive during periods of economic uncertainty or moderate slowdown when investors prioritize stability and downside protection. Compared with growth-oriented sectors such as XLK, XLF is less dependent on long-term growth expectations and valuation expansion. Instead, its performance is mainly driven by interest rates, credit conditions, and economic activity. Therefore, when financial conditions remain stable, XLF can provide relatively defensive equity exposure with lower downside risk. However, during severe recessions or financial crises, deteriorating credit conditions may negatively affect financial institutions and reduce its defensive characteristics.
+
+XLE may become relatively more attractive during periods of geopolitical tension, supply disruption risks, or commodity price upcycles. As XLE is highly sensitive to crude oil prices, natural gas prices, and global supply-demand conditions, higher energy prices may improve revenue expectations and profitability for energy companies, providing short-term support for sector performance. However, this opportunity is accompanied by significant cyclical risk, as declining commodity prices or weaker global demand can quickly pressure earnings and increase downside exposure. Therefore, XLE may be more suitable as a tactical allocation for investors with strong macroeconomic awareness rather than as a defensive long-term investment.
+
+Although XLK has the highest Sharpe Ratio, concentrating the portfolio entirely in XLK would create significant exposure to growth expectations, valuation changes, and interest-rate conditions. Its relatively high VaR, CVaR, and Maximum Drawdown also suggest that strong historical risk-adjusted performance does not eliminate meaningful downside risk. Therefore, combining XLK with sectors driven by different economic factors may help reduce concentration risk.
+
+For example, XLF could provide relatively more stable equity exposure when technology growth expectations weaken or when investors become more cautious about high-growth valuations, provided that broader economic activity and credit conditions remain healthy. Since XLF is influenced more directly by interest rates, credit conditions, and the economic cycle, it may help diversify some of the growth and valuation risk associated with XLK.
+
+XLE could play a different role within the portfolio. If geopolitical tensions or supply disruptions create persistent constraints in global energy markets while demand remains strong, rising commodity prices may support energy-sector earnings. Under such conditions, an investor could consider increasing XLE exposure as a tactical allocation. This would introduce commodity and geopolitical exposure into the portfolio, providing a return driver that differs from the growth-driven exposure of XLK and the credit-cycle exposure of XLF.
+
+Although XLK, XLF, and XLE are exposed to different sector-specific risk drivers, combining them within a portfolio does not eliminate systematic risk. A broad macroeconomic shock can affect all three sectors simultaneously through different transmission channels. For example, a persistent oil supply shock could initially push crude oil prices higher and keep inflation elevated. In response, the Federal Reserve may be forced to maintain higher interest rates for longer, increasing discount rates and placing downward pressure on the valuation of long-duration growth stocks. This would negatively affect XLK, particularly if technology companies also face weaker-than-expected profitability or free cash flow from new investment projects, causing earnings expectations to deteriorate while valuation multiples compress.
+
+At the same time, persistently high energy costs and restrictive monetary policy could weaken household consumption, business investment, and overall economic activity. As recession risk rises, financial institutions may face weaker loan growth, deteriorating credit quality, and higher expected credit losses, creating pressure on XLF. Although XLE may initially benefit from higher commodity prices caused by the supply shock, this advantage may not persist indefinitely. If high energy costs eventually lead to significant demand destruction and a broader economic slowdown, global oil demand expectations could fall. In that case, crude oil prices may reverse, weakening revenue and earnings expectations for energy companies and putting downward pressure on XLE as well.
+
+Therefore, a prolonged inflationary supply shock followed by economic contraction could potentially cause XLK, XLF, and XLE to decline at the same time, despite their different sector exposures. This illustrates an important limitation of cross-sector diversification: diversification can reduce concentration in a single risk factor, but it cannot fully protect a portfolio from broad systematic shocks that simultaneously affect interest rates, economic growth, credit conditions, and commodity demand.
+
+
+
+
+
+
+
+
+# 6. Investment Implications
+
+## 6.1 Risk metric summary
+
+| ETF | Sharpe Ratio | 1-Day VaR (95%) | 1-Day CVaR (95%) | Maximum Drawdown |
+| --- | ---: | ---: | ---: | ---: |
+| XLK | 1.19 | -2.40% | -3.33% | -25.66% |
+| XLF | 0.63 | -1.62% | -2.45% | -16.27% |
+| XLE | 0.42 | -2.20% | -3.18% | -20.14% |
+
+
+## 6.2 Risk-Return Implications by ETF and Market Regime Sensitivity
+
+### XLK — Technology
+
+Based on the quantitative analysis, XLK demonstrates the strongest risk-adjusted performance among the three ETFs, generating the highest return compensation per unit of volatility. This performance is supported by the strong growth momentum of the technology sector, particularly from AI infrastructure, semiconductor demand, and positive earnings expectations.
+
+However, this higher return potential is accompanied by the greatest short-term downside exposure and the deepest historical drawdown over the sample period. Additionally, XLK is highly sensitive to changes in growth expectations, interest-rate conditions, and overall market risk appetite, which can amplify both upside potential and downside volatility.
+
+Therefore, XLK may be more suitable for investors with higher risk tolerance who seek long-term growth opportunities and are willing to accept larger fluctuations.
+
+### Growth-Oriented Market Environment Favors XLK
+
+XLK may become relatively more attractive in an environment characterized by strong AI investment momentum, improving growth expectations, and supportive interest-rate conditions. As technology companies are highly dependent on future earnings growth, stronger AI adoption can improve earnings expectations and support valuation expansion.
+
+However, this growth-driven return profile also increases sensitivity to changes in interest rates and market sentiment. Therefore, while XLK may provide stronger upside potential during growth-oriented market conditions, investors should also recognize that expectation reversals may lead to greater downside volatility.
+
+
+### XLF — Financials
+
+XLF demonstrates a moderate risk-adjusted performance, providing relatively lower return compensation per unit of volatility compared with XLK. Meanwhile, XLF exhibits the lowest short-term downside exposure and the smallest historical drawdown over the sample period, making it a relatively defensive option among the three sector ETFs.
+
+Therefore, XLF may be more suitable for investors who prioritize stability and lower downside risk. Nevertheless, XLF remains sensitive to broader economic conditions, particularly changes in interest rates, credit conditions, and economic cycles. During periods of recession or financial stress, financial institutions may face higher credit risk and weaker earnings growth.
+
+Despite these risks, XLF maintained a relatively stable risk profile throughout most of the sample period, reflecting its lower volatility compared with XLK and XLE.
+
+### Moderate Slowdown with Stable Financial Conditions favors XLF
+
+XLF may become relatively more attractive during periods of economic uncertainty or moderate slowdown when investors prioritize stability and downside protection.
+
+Compared with growth-oriented sectors such as XLK, XLF is less dependent on long-term growth expectations and valuation expansion. Instead, its performance is mainly driven by interest rates, credit conditions, and economic activity.
+
+Therefore, when financial conditions remain stable, XLF can provide relatively defensive equity exposure with lower downside risk. However, during severe recessions or financial crises, deteriorating credit conditions may negatively affect financial institutions and reduce its defensive characteristics.
+
+
+### XLE — Energy
+
+XLE demonstrates the weakest risk-adjusted performance among the three ETFs, generating the lowest return per unit of volatility. This weaker performance is accompanied by relatively high short-term downside exposure and a significant historical drawdown over the sample period, suggesting that XLE provides limited downside protection compared with XLK and XLF.
+
+However, XLE has a unique risk profile due to its strong sensitivity to crude oil and natural gas prices, global supply-demand conditions, production decisions by major energy producers, and geopolitical developments.
+
+Therefore, rather than serving as a defensive investment, XLE may be more suitable as a tactical allocation for investors with strong macroeconomic awareness and the ability to monitor commodity markets and geopolitical developments. Its performance is highly dependent on external energy-market conditions, creating both opportunities during commodity upcycles and significant risks during unfavorable environments.
+
+### Commodity Upcycle or Supply Shock favors XLE
+
+XLE may become relatively more attractive during periods of geopolitical tension, supply disruption risks, or commodity price upcycles.
+
+As XLE is highly sensitive to crude oil prices, natural gas prices, and global supply-demand conditions, higher energy prices may improve revenue expectations and profitability for energy companies, providing short-term support for sector performance.
+
+However, this opportunity is accompanied by significant cyclical risk, as declining commodity prices or weaker global demand can quickly pressure earnings and increase downside exposure. Therefore, XLE may be more suitable as a tactical allocation for investors with strong macroeconomic awareness rather than as a defensive long-term investment.
+
+
+# 7. Portfolio Construction and Diversification
+
+## 7.1 Combining the Three Sector Exposures
+
+Although XLK has the highest Sharpe Ratio, concentrating the portfolio entirely in XLK would create significant exposure to growth expectations, valuation changes, and interest-rate conditions. Its relatively high VaR, CVaR, and Maximum Drawdown also suggest that strong historical risk-adjusted performance does not eliminate meaningful downside risk.
+
+Therefore, combining XLK with sectors driven by different economic factors may help reduce concentration risk.
+
+For example, XLF could provide relatively more stable equity exposure when technology growth expectations weaken or when investors become more cautious about high-growth valuations, provided that broader economic activity and credit conditions remain healthy. Since XLF is influenced more directly by interest rates, credit conditions, and the economic cycle, it may help diversify some of the growth and valuation risk associated with XLK.
+
+XLE could play a different role within the portfolio. If geopolitical tensions or supply disruptions create persistent constraints in global energy markets while demand remains strong, rising commodity prices may support energy-sector earnings. Under such conditions, an investor could consider increasing XLE exposure as a tactical allocation.
+
+This would introduce commodity and geopolitical exposure into the portfolio, providing a return driver that differs from the growth-driven exposure of XLK and the credit-cycle exposure of XLF.
+
+
+## 7.2 Limits of Cross-Sector Diversification
+
+Although XLK, XLF, and XLE are exposed to different sector-specific risk drivers, combining them within a portfolio does not eliminate systematic risk. A broad macroeconomic shock can affect all three sectors simultaneously through different transmission channels.
+
+For example, a persistent oil supply shock could initially push crude oil prices higher and keep inflation elevated. In response, the Federal Reserve may be forced to maintain higher interest rates for longer, increasing discount rates and placing downward pressure on the valuation of long-duration growth stocks.
+
+This would negatively affect XLK, particularly if technology companies also face weaker-than-expected profitability or free cash flow from new investment projects, causing earnings expectations to deteriorate while valuation multiples compress.
+
+At the same time, persistently high energy costs and restrictive monetary policy could weaken household consumption, business investment, and overall economic activity. As recession risk rises, financial institutions may face weaker loan growth, deteriorating credit quality, and higher expected credit losses, creating pressure on XLF.
+
+Although XLE may initially benefit from higher commodity prices caused by the supply shock, this advantage may not persist indefinitely. If high energy costs eventually lead to significant demand destruction and a broader economic slowdown, global oil demand expectations could fall. In that case, crude oil prices may reverse, weakening revenue and earnings expectations for energy companies and putting downward pressure on XLE as well.
+
+Therefore, a prolonged inflationary supply shock followed by economic contraction could potentially cause XLK, XLF, and XLE to decline at the same time, despite their different sector exposures.
+
+
+# 8. Final Conclusion
 
 This project evaluates the risk-return characteristics of three sector ETFs: XLK (Technology), XLF (Financials), and XLE (Energy), using historical market data and four key risk metrics: Sharpe Ratio, Value at Risk (VaR), Conditional Value at Risk (CVaR), and Maximum Drawdown.
 
